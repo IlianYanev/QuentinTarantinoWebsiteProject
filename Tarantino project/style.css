@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'Tarantino';
+    src: url(Tarantino-\ PERSONAL\ USE\ ONLY.ttf);
+}
+body {
+    background-color: #f2dea0;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #f2dea0;
+    font-size: 9vw;
+    font-family: 'Tarantino';
+    transform: translate(5%,0%);
+}
+
+h2 {
+    color: #f2dea0;
+    font-size: 7vw;
+    font-family: 'Tarantino';
+    transform: translate(5%,95%);
+}
+
+.quote {
+    color: #f2dea0;
+    font-size: 2vw;
+    font-family: 'Tarantino';
+    transform: translate(40vw,-25vw);
+    margin-left: 10vw;
+    margin-right: 45vw;
+}
+
+h6 {
+    color: #d11317;
+    font-size: 1vw;
+    font-family: 'Tarantino';
+    transform: translate(8%,-800%);
+}
+
+.directed{
+    color: #d11317;
+    font-size: 2vw;
+    font-family: 'Tarantino';
+    transform: translate(0%,-4vw);
+}
+
+.title{
+    transform: translate(0vw,-4vw);
+    margin-left: -2px;
+    margin-right: -1.5px;
+}
+
+.secondgroup{
+    background-color: blue  ;
+   height: 0px;
+}
+
+
+.mainpic{
+    max-width: 57%;
+    max-height: 57%;
+    transform: translate(42vw,-40.5vw);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #d11317;
+    padding: 1vw 2vw;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border: 2px solid #f2dea0;
+    margin-left: -2px;
+    margin-right: -1.5px;
+}
+
+.logo {
+    height: 4vw;
+    margin-right: 2vw;
+    margin-top: -0.5vw;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+}
+
+nav ul li {
+    margin: 0 1.5vw;
+}
+
+nav ul li a {
+    font-family: 'Tarantino', sans-serif;
+    text-decoration: none;
+    color: #f2dea0;
+    font-size: 1.5vw;
+    padding: 0.8vw 1vw;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f2dea0;
+    color: #d11317;
+    border-radius: 0.4vw;
+}
+
+.title {
+    background-color: #d11317 ;
+    margin-left: -20px;
+    margin-right: -10px;
+}
+
+.workingpic{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transform: translate(0vw,3.7vw);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.redsquare{
+    background-color: #d11317 ;
+    margin-left: -20px;
+    margin-right: -10px;
+    height: 37vw;
+    transform: translate(0vw,-41.5vw);
+}
+
+.restpics{
+    float:left;
+    max-height: 14vw;
+    max-width: 20vw;
+    margin-right:10px;
+}
+
+.movies{
+    transform: translate(3vw,-3.7vw);
+
+}
+
+.jb{
+    max-height: 14vw;
+    max-width: 17vw;
+}
+
+.carousel{
+    width: 100vw;
+    height: 30vw;
+    position: relative;
+    transform: translate(-1vw,15vw);
+}
+
+.carousel > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+}
+
+.slide > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide[data-active]{
+    opacity: 1;
+    transition-delay: 0ms;
+    z-index: 1;
+}
+
+.carousel-button{
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus{
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.carousel-button:focus{
+    outline: 1px solid black;
+}
+
+.carousel-button.prev{
+    left: 1rem;
+}
+
+.carousel-button.next{
+    right: 1rem;
+}
